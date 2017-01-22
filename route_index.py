@@ -4,7 +4,7 @@ from bottle import get
 
 @get('/')
 def index_page():
-  return 'Здесь будет Сашин сайт hohta.ru!'
+  return 'Здесь будет Сашин крутой сайт hohta.ru!'
 
 @get('/test/')
 def index_page():
